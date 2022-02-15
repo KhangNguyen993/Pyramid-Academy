@@ -11,15 +11,23 @@ public class Main {
                 "and hungry and will eat you on sight.");
         System.out.println("Which cave will you go into? (1 or 2)");
         Scanner scanner = new Scanner(System.in);
-        int userInput = Integer.parseInt(scanner.nextLine());
-
-        if (userInput == 1){
-            System.out.println("You approach the cave...\nIt is dark and spooky...\nA large dragon jumps out in front of" +
-                    " you! He opens his jaws and...\nGobbles you down in one bite!");
-        } else {
-            System.out.println("You approach the cave...\nIt is dark and spooky...\nA large dragon jumps out in front of" +
-                    " you! He makes friend with you and...\nHe shares his treasure with you!");
-
+        int userInput;
+        try{
+        userInput = Integer.parseInt(scanner.nextLine());
+            if (userInput == 1){
+                System.out.println("You approach the cave...\nIt is dark and spooky...\nA large dragon jumps out in front of" +
+                        " you! He opens his jaws and...\nGobbles you down in one bite!");
+            } else if(userInput == 2){
+                System.out.println("You approach the cave...\nIt is dark and spooky...\nA large dragon jumps out in front of" +
+                        " you! He makes friend with you and...\nHe shares his treasure with you!");
+            }
+            else {
+                System.out.println("You have to choose between 1 or 2");
+            }
         }
+        catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+
     }
 }

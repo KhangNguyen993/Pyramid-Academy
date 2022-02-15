@@ -25,6 +25,7 @@ public class Main {
 
 
         while (playGame){
+            
             System.out.println("**************");
             System.out.println("Take a guess");
             userInput = scanner.nextLine();
