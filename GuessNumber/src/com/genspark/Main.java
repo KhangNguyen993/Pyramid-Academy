@@ -17,7 +17,7 @@ public class Main {
         String userInput;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Hello, What is your name?");
-        
+
         String userName = scanner.nextLine();
 
         System.out.println("Well," + userName + ", I am thinking of a number between 1 and 20.");
