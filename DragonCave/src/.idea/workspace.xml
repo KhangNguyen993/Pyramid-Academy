@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="164b7705-9708-48fa-9b04-3e84a5053da5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/genspark/test/com/genspark/java/DragonCaveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/genspark/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/genspark/java/DragonCave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GuessNumber/src/com/genspark/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../GuessNumber/src/com/genspark/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="164b7705-9708-48fa-9b04-3e84a5053da5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
